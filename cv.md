@@ -10,9 +10,13 @@
 - GitHub: [Bitvinus](https://github.com/Bitvinus)
 - Codewars: [Bitvinus](https://www.codewars.com/users/Bitvinus)
 
+---
+
 ### About Myself
 
 I am a surveyor engineer by profession. I worked in monolithic construction, built schools and multi-storey residential buildings. I also worked as a photographer and video operator. As a hobby, I shoot and edit video blogs and videos. I've been studying programming for the last year and I'm going to become a web developer.
+
+---
 
 ### Skills
 
@@ -22,9 +26,11 @@ I am a surveyor engineer by profession. I worked in monolithic construction, bui
 - VS Code
 - Adobe Photoshop, Adobe Premiere and more
 
+---
+
 ### Code Example
 
-**Codewars kata discription:** _Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number._
+**Codewars kata description:** _Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number._
 
 ```javascript
 function createPhoneNumber(numbers) {
@@ -40,6 +46,8 @@ function createPhoneNumber(numbers) {
 }
 ```
 
+---
+
 ### Courses
 
 - HTML and CSS courses on [**htmlacademy**](https://htmlacademy.ru/)
@@ -52,6 +60,8 @@ function createPhoneNumber(numbers) {
 - The Complete JavaScript Course 2021: From Zero to Expert! on [**Udemy**](https://www.udemy.com/course/the-complete-javascript-course/)
 
 ![pic3](https://pbs.twimg.com/media/E-royh-X0AA8i2k?format=jpg&name=small)
+
+---
 
 ### Languages
 
