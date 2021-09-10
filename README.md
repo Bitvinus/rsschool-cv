@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Bitvinus.github.io/rsschool-cv/cv
+https://Bitvinus.github.io/rsschool-cv/
