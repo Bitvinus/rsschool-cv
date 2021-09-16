@@ -42,6 +42,8 @@
   </head>
 
   <body>
+    <script src="script.js"></script>
+
     <main class="wrapper">
       <header class="header pull-left">
         <div class="avatar">
@@ -85,7 +87,7 @@
             <li><a href="#my-skills">Skills</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#language">Languages</a></li>
-            <li><a href="#example">Work example</a></li>
+            <li><a href="#example">Code example</a></li>
           </ul>
         </nav>
 
@@ -107,13 +109,42 @@
 
           <div class="intro">
             <p>
-              I am a surveyor engineer by profession. I worked in monolithic
-              construction, built schools and multi-storey residential
-              buildings. I also worked as a photographer and video operator. As
-              a hobby, I shoot and edit video blogs and videos. I’ve been
-              studying programming for the last year and I’m going to become a
-              web developer.
+              My name is Ivan, I live in Moscow, the capital of Russia. Now I
+              work as a photographer and videographer in a large aircraft
+              manufacturing company. In my free time from work and study, I help
+              my video blogger friends to shoot and edit their videos. If you
+              are interested, then there will be a link to the video from my
+              friend's channel. She is an art critic and tells an amazing story
+              about paintings and art, you will not regret it, I am an
+              engineer-surveyor by education. I built schools and residential
+              buildings. But geodesy is not my thing. I finally decided to
+              change my profession during the pandemic, when I realized that it
+              was impossible to work remotely at a construction site. This is my
+              second attempt to become a programmer, at the first I learned HTML
+              and CSS, but I never got to the most interesting thing -
+              Javascript. I took three courses and did a couple of training
+              projects. At first, I studied at the htmlacademy course. This
+              school gave me the basis of HTML and CSS. Then there was a very
+              serious and advanced course at the Hexlet School. I studied there
+              for more than a year. The course focused on programming in general
+              and Javascript in particular. Unfortunately, I did not complete
+              this course and did not receive a certificate, but the course gave
+              me a lot of useful things. And last but not least, there was a
+              video course in English on the Udemy platform. After it, I began
+              to feel much more confident. I want to make my own projects. I
+              want to participate in joint development with other people. I
+              think that very soon I will be ready to look for my first job.
             </p>
+            <div class="images">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Tm0K07RJm9A"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
 
             <ul class="info">
               <li>
@@ -232,15 +263,16 @@
                   HTML, CSS, and Javascript for Web Developers (Johns Hopkins
                   University) on
                   <a href="https://www.coursera.org/">Coursera</a>
+                  <div>
+                    <img
+                      class="images"
+                      src="assets/images/coursera.jpg"
+                      width="600"
+                      height="400"
+                      alt="coursera"
+                    />
+                  </div>
                 </li>
-                <p>
-                  <img
-                    src="assets\images\coursera.jpg"
-                    width="600"
-                    height="400"
-                    alt="coursera"
-                  />
-                </p>
 
                 <li>
                   Frontend developer profession on
@@ -252,13 +284,16 @@
                     href="https://www.udemy.com/course/the-complete-javascript-course/"
                     >Udemy</a
                   >
+                  <div>
+                    <img
+                      class="images"
+                      src="assets/images/udemy.jpg"
+                      width="600"
+                      height="400"
+                      alt="udemy"
+                    />
+                  </div>
                 </li>
-                <img
-                  src="assets\images\udemy.jpg"
-                  width="600"
-                  height="400"
-                  alt="udemy"
-                />
               </ul>
             </div>
           </div>
@@ -277,15 +312,14 @@
                   English - in the range of C1 ADVANCED to C2 PROFICIENT,
                   according to the online test at
                   <a href="https://t.co/FcUak2mTiZ?amp=1">EFset</a>
-                </li>
-                <p>
                   <img
-                    src="assets\images\english.jpg"
+                    class="images"
+                    src="assets/images/english.jpg"
                     width="600"
                     height="400"
                     alt="coursera"
                   />
-                </p>
+                </li>
               </ul>
             </div>
           </div>
@@ -293,7 +327,7 @@
 
         <section id="example" class="resume">
           <div class="section-header">
-            <h2>Work example</h2>
+            <h2>Code example</h2>
           </div>
 
           <h4>Codewars kata description:</h4>
@@ -302,9 +336,9 @@
             and 9), that returns a string of those numbers in the form of a
             phone number.</span
           >
-          <div>
-            <code>
-              <pre>
+          <div class="images">
+            <pre>
+            <code>   
 function createPhoneNumber(numbers) {
 	numbers = numbers.join('');
 	return (
@@ -316,9 +350,8 @@ function createPhoneNumber(numbers) {
 		numbers.substring(6)
 	);
  }
-						</pre
-              >
             </code>
+            </pre>
           </div>
         </section>
       </div>

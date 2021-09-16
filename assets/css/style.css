@@ -412,6 +412,14 @@ li {
   margin-bottom: 0;
 }
 
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*-----------------------------------------------------------------*/
 /*                      SECTION BLOG                               */
 /*-----------------------------------------------------------------*/
@@ -513,16 +521,21 @@ li {
 }
 
 @media only screen and (max-width: 767px) {
-  .welcome {
-    padding: 60px !important;
+  .header {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
   }
 
-  .welcome .quote {
-    width: initial;
-  }
-
-  .facts .fact-item {
-    margin-bottom: 20px;
+  .main-content {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .resume .resume-item {
